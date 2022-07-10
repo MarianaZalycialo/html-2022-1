@@ -1,0 +1,14 @@
+h1, h2 {
+    background: yellow;
+    color: black ;
+}
+
+p, ul {
+    background: orange;
+    color: black;
+}
+
+.img {
+    width: 250px;
+}
+
