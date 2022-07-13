@@ -1,0 +1,50 @@
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    column-gap: 40px
+
+}
+h2{
+    padding-bottom: 20px;
+}
+.conteiner > div {
+    background: #ffc4c4;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+.first {
+    border: solid 1px blue;
+    background: #cc32a8;
+    width: 100px;
+    padding: 10px;
+
+    }
+.first:hover {
+    background: darkorchid;
+}
+p {
+    padding-bottom: 20px;
+}
+.circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background:#cc32a8;
+    position: absolute;
+    top: -50px;
+    border: solid 1px blue;
+}
+i {
+    padding: 22px;
+    font-size: 48px;
+}
